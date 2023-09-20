@@ -1,0 +1,30 @@
+{
+    "name": "yiisoft/yii2-app-micro_api",
+    "description": "Yii 2 Basic Project Template",
+    "require": {
+        "yiisoft/yii2": "~2.0.14",
+        "yiisoft/yii2-httpclient": "^2.0@dev",
+        "mongosoft/yii2-soap-client": "*",
+        "kartik-v/yii2-mpdf": "*",
+        "yiisoft/yii2-swiftmailer": "~2.0.0 || ~2.1.0",
+        "glitchit/ds-yii2-tcpdf": "^1.0"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url" : "https://asset-packagist.org"
+        }
+    ],
+    "authors":[
+        {
+            "name": "John Magaya",
+            "email": "john.magaya@tbridge.co.tz",
+            "role": "Leading Developer"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "yiisoft/yii2-composer": true
+        }
+    }
+}

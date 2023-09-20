@@ -1,0 +1,18 @@
+{
+    "intro": {
+        "appName": "Linka"
+    },
+    "errors" : {
+        "500": "General failure / Internal server error",
+        "255": "System defined error",
+        "401": "Authentication required",
+        "404": "Resource not found",
+        "100": "Successful response",
+        "01": "Loan title is required",
+        "02": "member_id is required",
+        "03": "Loan amount is required",
+        "04": "payment plan is required",
+        "05": "Creator is required",
+        "06": "partner_id is required"
+    }
+}

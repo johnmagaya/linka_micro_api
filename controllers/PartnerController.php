@@ -34,6 +34,7 @@ class PartnerController extends Controller
     $record_loan = Yii::$app->helper->recordLoan($title, $amount, $plan, $member_id, $partner_id, $created_by);
     
     if($record_loan['code']== "100") {
+      
       $response = [
         'success' => true,
         'response_code' => $record_loan['code'],
